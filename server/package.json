@@ -1,0 +1,19 @@
+{
+  "name": "bond-cashflow-server",
+  "version": "1.0.0",
+  "description": "REST API for bond cashflow schedules, pricing and yield sensitivity",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "jest": { "testEnvironment": "node" }
+}
